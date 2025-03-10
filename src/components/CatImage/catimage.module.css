@@ -1,0 +1,12 @@
+.cat_image_container {
+    display: flex;
+    margin: 8px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.cat_image_container img {
+    margin: 8px;
+    width: 35%;
+    height: auto;
+}

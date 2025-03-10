@@ -1,0 +1,39 @@
+.main {
+    flex-grow: 1;
+}
+
+.container {
+   position: relative;
+    height: 300px;
+    margin: 16px;
+    top: 25%;
+    background-color: #3A5A40;
+    text-align: center;
+    align-content: center;
+    border-radius: 35px;
+}
+
+.container p{
+    font-size: 20px;
+    color: white;
+}
+
+.button {
+    margin: 16px;
+    padding: 16px;
+    background-color: #5C4742;
+    border: 2px solid #5C4742;
+    color: white;
+    font-size: 24px;
+    text-transform: uppercase;
+    font-style: italic;
+    width: 100px;
+    border-radius: 25px;
+    box-shadow: 2px 2px 2px 2px;
+    cursor: pointer;
+    z-index: 1;
+}
+
+.button:hover {
+    transform: scale(1.05);
+}

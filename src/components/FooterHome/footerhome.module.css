@@ -1,0 +1,21 @@
+.footer {
+    background-color: #588157;
+}
+
+.social_icon {
+    margin: 8px;   
+    flex:  40%;
+    justify-content: flex-end;
+}
+
+.footer_content {
+    display: flex;
+}
+
+.footer_content p {
+    font-size: 18px;
+    flex: 1 0 60%;
+    margin-left: 32px;
+    padding-left: 48px;
+    justify-content: flex-start;
+}

@@ -1,0 +1,10 @@
+.main {
+    flex-grow: 1;
+    background-color: #C2EABA;
+}
+
+.cat_main {
+    margin: 8px;
+    text-indent: 30px;
+    font-size: 18px;
+}

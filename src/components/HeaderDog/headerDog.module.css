@@ -1,0 +1,24 @@
+.header{
+    margin: 0;
+    padding: 16px;
+    background-color: #749C75;
+    text-align: center;
+    display: flex;
+    
+}
+
+.logo {
+    flex: 1 0 50%;
+    text-align: right;
+   
+}
+
+.logo img {
+    margin: 8px;
+    height: auto;
+}
+
+.title {
+    flex: 1 0 50%;
+    text-align: left;
+}
