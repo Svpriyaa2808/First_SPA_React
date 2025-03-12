@@ -1,4 +1,4 @@
-import CatImage from '../CatImage'
+import CatImages from '../CatImage'
 import styles from './catmain.module.css'
 
 const CatMain = () => {
@@ -17,7 +17,7 @@ const CatMain = () => {
                 </ul>
             
             </div>
-            <CatImage />
+            <CatImages />
         </div>
         
         </>
