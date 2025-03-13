@@ -17,7 +17,7 @@ export const dogArray = [
         "High; loves outdoor activities and swimming",
         "Long, thick, and requires regular grooming",
         "Families, therapy work, and active owners",
-        "src/assets/goldretriever.jpg"),
+        "/src/assets/goldretriever.jpg"),
 
     new DogDetails("Pomeranian",
         "12-16 years",
@@ -26,7 +26,7 @@ export const dogArray = [
         "Low to moderate; enjoys short walks and playtime",
         "Fluffy double coat, requires regular brushing",
         "Apartment living, companionship, and first-time dog owners",
-        "src/assets/pomerian.jpg"),
+        "/src/assets/pomerian.jpg"),
 
     new DogDetails("Beagle",
         "12-15 years",
