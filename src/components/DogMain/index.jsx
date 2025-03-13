@@ -1,5 +1,5 @@
 import styles from './dogmain.module.css'
-
+import { DogImageUrl } from '../../utils/function';
 const DogMain = ({name,lifespan,size,temperament,exercise,coat,good,image}) => {
     return(
         <div className={styles.main}>
@@ -16,7 +16,7 @@ const DogMain = ({name,lifespan,size,temperament,exercise,coat,good,image}) => {
             </ul>
             </div>
             <div className={styles.dog_image}>
-                <img src={image} alt={name}></img>
+                <img src={DogImageUrl(image)} alt={name}></img>
             </div>
         </div>
         </div>

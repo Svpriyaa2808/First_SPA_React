@@ -17,7 +17,7 @@ export const dogArray = [
         "High; loves outdoor activities and swimming",
         "Long, thick, and requires regular grooming",
         "Families, therapy work, and active owners",
-        "/src/assets/goldretriever.jpg"),
+        "goldretriever.jpg"),
 
     new DogDetails("Pomeranian",
         "12-16 years",
@@ -26,7 +26,7 @@ export const dogArray = [
         "Low to moderate; enjoys short walks and playtime",
         "Fluffy double coat, requires regular brushing",
         "Apartment living, companionship, and first-time dog owners",
-        "/src/assets/pomerian.jpg"),
+        "pomerian.jpg"),
 
     new DogDetails("Beagle",
         "12-15 years",
@@ -35,7 +35,7 @@ export const dogArray = [
         "High; loves to sniff and explore",
         "Short and low-maintenance",
         "Active families, scent work, and outdoor adventures",
-        "src/assets/beagle.jpg"),
+        "beagle.jpg"),
 
     new DogDetails("Shih Tzu",
         "10-16 years",
@@ -44,5 +44,5 @@ export const dogArray = [
         "Low to moderate; enjoys short walks",
         "Long, silky coat that needs daily grooming",
         "Apartment living, seniors, and lap dog lovers",
-        "src/assets/shihTzu.jpg")
+        "shihTzu.jpg")
 ]
