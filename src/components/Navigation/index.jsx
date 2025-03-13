@@ -1,5 +1,6 @@
 import styles from './navigation.module.css'
 
+
 const Navigation = ({currentPage}) => {
     
     return(

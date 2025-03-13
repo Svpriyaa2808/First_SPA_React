@@ -12,12 +12,27 @@ function App() {
   return (
     <>
       {/* {(showPage === "cat" || showPage === "dog") && <Navigation currentPage={SetShowPage} />} */}
-      {showPage === "home" && (<Home currentPage={SetShowPage}/>)}
-      {showPage === "cat" && (<Cat />)}
-      {showPage === "dog" && (<Dog />)}
-      {(showPage === "cat" || showPage === "dog") && <Footer currentPage={SetShowPage}/>}
-      {showPage === "home" && <FooterHome />}
+      {showPage === "home" && 
+      <>
+      <Home currentPage={SetShowPage}/>
+      <FooterHome />
+      </>}
+      {showPage === "cat" && 
+      <>
+      <Cat />
+       <Footer currentPage={SetShowPage}/>
+      </>}
       
+      {showPage === "dog" && 
+      <>
+      <Dog />
+      <Footer currentPage={SetShowPage}/>
+      </>}
+
+      {/* {showPage === "dog" && (<Dog currentPage={SetShowPage}/>)}
+      {(showPage === "cat" || showPage === "dog") && <Footer currentPage={SetShowPage}/>}
+      {showPage === "home" && <FooterHome />} */}
+       
     </>
   )
 }
