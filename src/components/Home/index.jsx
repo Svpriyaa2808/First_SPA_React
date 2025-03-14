@@ -1,3 +1,4 @@
+import FooterHome from '../FooterHome'
 import styles from './home.module.css'
 
 const Home = ({currentPage}) => { 
@@ -10,6 +11,7 @@ const Home = ({currentPage}) => {
             <button className={styles.button} onClick={()=>currentPage("dog")}>Dog</button>
         </div>
         </div>
+        <FooterHome />
         </>
     )
 }

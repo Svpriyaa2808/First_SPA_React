@@ -1,13 +1,14 @@
 
 import CatMain from "../CatMain";
 import HeaderCat from "../HeaderCat";
-
-function App() {
-   
+import Footer from "../Footer";
+function App({currentPage}) {
+   console.log(currentPage)
     return(
         <>
         <HeaderCat />
         <CatMain />
+        <Footer displayFooter = {currentPage}/>
         </>
     )
 }

@@ -8,32 +8,33 @@ import FooterHome from './components/FooterHome'
 
 function App() {
   const [showPage,SetShowPage] = useState("home")
+  const handleFooter = (item) => {
+    SetShowPage(item);
+  }
 
   return (
     <>
+
       {/* {(showPage === "cat" || showPage === "dog") && <Navigation currentPage={SetShowPage} />} */}
+      
       {showPage === "home" && 
-      <>
-      <Home currentPage={SetShowPage}/>
-      <FooterHome />
-      </>}
+      <Home currentPage={handleFooter}/>
+
+      }
+
       {showPage === "cat" && 
-      <>
-      <Cat />
-       <Footer currentPage={SetShowPage}/>
-      </>}
+      <Cat currentPage={handleFooter}/>
+      }
       
       {showPage === "dog" && 
-      <>
-      <Dog />
-      <Footer currentPage={SetShowPage}/>
-      </>}
+      <Dog currentPage={handleFooter}/>
+      }
 
       {/* {showPage === "dog" && (<Dog currentPage={SetShowPage}/>)}
       {(showPage === "cat" || showPage === "dog") && <Footer currentPage={SetShowPage}/>}
       {showPage === "home" && <FooterHome />} */}
        
-    </>
+       </>
   )
 }
 

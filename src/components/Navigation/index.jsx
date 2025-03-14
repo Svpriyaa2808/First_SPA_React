@@ -1,13 +1,13 @@
 import styles from './navigation.module.css'
 
 
-const Navigation = ({currentPage}) => {
-    
+const Navigation = ({display}) => {
+ 
     return(
         <nav className={styles.nav}>
-            <button className={styles.button} onClick={()=>currentPage("home")}>Home</button>
-            <button className={styles.button} onClick={()=>currentPage("cat")}>Cat</button>
-            <button className={styles.button} onClick={()=>currentPage("dog")}>Dog</button>
+            <button className={styles.button} onClick={()=>display("home")}>Home</button>
+            <button className={styles.button} onClick={()=>display("cat")}>Cat</button>
+            <button className={styles.button} onClick={()=>display("dog")}>Dog</button>
         </nav>
     )
 }
